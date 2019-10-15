@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "msg",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "demoqueue",
+      "connection": "demostorageacct_STORAGE"
+    }
+  ]
+}
